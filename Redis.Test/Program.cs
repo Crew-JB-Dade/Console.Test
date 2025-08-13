@@ -48,6 +48,7 @@ try
     while (true)
     {
         string? line = Console.ReadLine();
+
         if (line is null) continue; // null (Ctrl+Z 등) 무시
         if (string.Equals(line, "exit", StringComparison.OrdinalIgnoreCase))
         {
