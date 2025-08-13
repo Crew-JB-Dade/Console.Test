@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cpu.Temperature", "Cpu.Temperature\Cpu.Temperature.csproj", "{DE17B42F-6935-43F4-B11B-CB7D94FDAACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Test", "Redis.Test\Redis.Test.csproj", "{11E6912A-43E9-4FD7-B7AC-CAF83B7763F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE17B42F-6935-43F4-B11B-CB7D94FDAACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE17B42F-6935-43F4-B11B-CB7D94FDAACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE17B42F-6935-43F4-B11B-CB7D94FDAACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE17B42F-6935-43F4-B11B-CB7D94FDAACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E6912A-43E9-4FD7-B7AC-CAF83B7763F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E6912A-43E9-4FD7-B7AC-CAF83B7763F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E6912A-43E9-4FD7-B7AC-CAF83B7763F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E6912A-43E9-4FD7-B7AC-CAF83B7763F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {949575FA-6007-4475-8220-B0F91E2C6C6E}
+	EndGlobalSection
+EndGlobal
